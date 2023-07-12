@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button Example</title>
+  <style>
+    .box {
+      display: none;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 20px;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      background-color:#000000;
+    width:490px ;
+    height: 640px;
+    left:50%;
+    top:50%;
+    }
+
+    .show {
+      display: block;
+    }
+    .hide {
+      visibility: hidden;
+    }
+.div1 {
+background-color:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+width:200px ;
+height: 150px;
+position:center;
+float:center;
+text-align: center;
+
+}
+
+#div1 {
+    background-color:#000000;
+    width:490px ;
+    height: 640px;
+    position:absolute;
+    left:250px;
+    top:250px;
+    }
+    body 
+    {
+    background-image:url(https://images.template.net/91402/black-and-red-background-wo2pu.png) ;
+    color:rgb(255, 254, 254);
+
+    }
+
+img{
+border-style: inset;
+width: 900px;
+height:300px ;
+margin-left:10px ;
+margin-right:10px ;
+}
+.name{  font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    font-size: 20px;}
+
+
+    p{ background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));}
+
+    table{
+      
+    }
+    .pro {
+    width:50px;
+
+    }
+
+    button{
+background-color: red;
+color:black;
+border-image-outset:url();
+    }
+
+    .img {
+        animation: dance 4s infinite;
+        -webkit-animation:dance 4s infinite;
+        -moz-animation:dance 4s infinite;
+        position:absolute;
+        top: 200px;
+        left: 400px;
+      }
+
+      body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    /* Hidden by default */
+    #aboutPopup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    /* Style the popup content */
+    .popup-content {
+      background-color: #fefefe;
+      margin: 10% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    /* Close button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="name">
+    <img src="https://i.pinimg.com/736x/44/fd/e7/44fde7ca8ad9f619a291909f26075d6f.jpg">
+    <h1>Trigger Byte</h1>  <button id="showButton">Sign up</button>   
+    
+    <div id="box" class="box">
+        <h1>Create an Account</h1>
+        <form action="/signup" method="post">
+          <input type="text" name="username" placeholder="Username" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+</div>
+
+  <button id="aboutButton">Show About Us</button>
+
+  <!-- About Us Popup -->
+  <div id="aboutPopup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2>About Trigger Byte</h2>
+      <p>
+        Trigger Byte is a leading technology company dedicated to providing innovative software solutions for businesses. We specialize in developing high-quality web and mobile applications that help organizations streamline their processes and enhance their productivity.
+      </p>
+      <p>
+        Our team of experienced developers, designers, and project managers work collaboratively to create tailored solutions that meet the unique needs of our clients. We leverage the latest technologies and industry best practices to deliver cutting-edge software products.
+      </p>
+      <p>
+        At Trigger Byte, we believe in the power of technology to transform businesses and improve lives. Our mission is to empower organizations with robust and user-friendly software solutions that drive growth, efficiency, and success.
+      </p>
+      <p>
+        Whether you're a small startup or a large enterprise, we are committed to delivering exceptional results and providing outstanding customer service. We strive to build long-term partnerships with our clients based on trust, transparency, and mutual success.
+      </p>
+      <p>
+        Contact us today to learn more about how Trigger Byte can help your business thrive in the digital age.
+      </p>
+    </div>
+  </div>
+
+</div>
+<br>
+<div class="company-info">
+  <h2>About Our Company</h2>
+  <p>Established in 1979, our business proudly originated in Alabama and has been serving customers for over 43 years.</p>
+  <p>Founded by Micah Sowell, our company has become a trusted name in the industry, offering top-quality products/services and exceptional customer service.</p>
+</div>
+
+body {
+  font-family: 'Comic Sans MS', cursive;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+  <div class="product">
+    <img src="product_image.jpg" alt="Product Image">
+    <h2>Product Name</h2>
+    <p class="price">$99.99</p>
+    <p class="description"> Introducing ProWeb Builder, the affordable solution for building professional websites without the need for coding or design skills. With a one-time fee of just $100, you can create your stunning online presence and establish a strong digital footprint </p>
+  </div>
+
+  <div class="product1">
+    <img src="product_image.jpg" alt="Product Image">
+    <h2>Product Name</h2>
+    <p class="price">$199.99</p>
+    <p class="description"> Introducing ProWeb Plus, the ultimate website builder service that combines affordability, versatility, and professional results. For just $100, you can unleash your creativity and bring your online vision to life with ease. </p>
+  </div>
+
+
+
+
+ 
+
+
+  <script>
+    document.getElementById('showButton').addEventListener('click', function() {
+      document.getElementById('box').classList.toggle('show');
+    });
+
+      // Get the popup element
+      const popup = document.getElementById('aboutPopup');
+
+// Get the button that opens the popup
+const aboutButton = document.getElementById('aboutButton');
+
+// Get the close button
+const closeButton = document.querySelector('.close');
+
+// Function to open the popup
+function openPopup() {
+  popup.style.display = 'block';
+}
+
+// Function to close the popup
+function closePopup() {
+  popup.style.display = 'none';
+}
+
+// Event listeners
+aboutButton.addEventListener('click', openPopup);
+closeButton.addEventListener('click', closePopup);
+window.addEventListener('click', function(event) {
+  if (event.target === popup) {
+    closePopup();
+  }
+});
+  </script>
+</body>
+</html>
